@@ -1,0 +1,33 @@
+.container {
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.statusTasksContainer {
+    display: flex;
+    align-items: center;
+}
+
+.createdTasksText {
+    color: var(--blue-400);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.concludedTasksText {
+    color: var(--purple-400);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.statusTasksContainer span {
+    margin-left: 0.5rem;
+    background-color: var(--gray-500);
+    border-radius: 0.625rem;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
